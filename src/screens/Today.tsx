@@ -31,7 +31,7 @@ export function Today() {
 
       <section className="card">
         <div className="card-h"><h2>{t('Next 30 days')}</h2><span className="pill alert">Alert</span></div>
-        <CashChart series={[{ name: 'Realistic', values: project(realistic), color: '#10b981' }]} />
+        <CashChart series={[{ name: 'Realistic', values: project(realistic), color: '#2ee59d' }]} />
         <p className="muted small">Projection using each customer's real payment habit. Lowest point {taka(-310_000, lang)} on 8 Dec.</p>
       </section>
 
