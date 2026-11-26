@@ -11,11 +11,11 @@ export function Radar() {
 
   const series = view === 'cases'
     ? [
-        { name: 'Realistic', values: project(realistic), color: '#7b6cff' },
+        { name: 'Realistic', values: project(realistic), color: '#10b981' },
         { name: 'Due dates', values: project(dueDateCase), color: '#94a3b8', dashed: true },
       ]
     : [
-        { name: 'With plan A', values: project(planA), color: '#14b8a6' },
+        { name: 'With plan A', values: project(planA), color: '#6366f1' },
         { name: 'Without a plan', values: project(realistic), color: '#cbd5e1', dashed: true },
       ];
 

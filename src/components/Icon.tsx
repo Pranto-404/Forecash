@@ -35,14 +35,14 @@ export function Logo({ size = 34 }: { size?: number }) {
     <svg width={size} height={size} viewBox="0 0 48 48" aria-hidden="true">
       <defs>
         <linearGradient id="fcg" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0" stopColor="#7b6cff" />
-          <stop offset="1" stopColor="#14b8a6" />
+          <stop offset="0" stopColor="#c6f36b" />
+          <stop offset="1" stopColor="#10b981" />
         </linearGradient>
       </defs>
       <rect width="48" height="48" rx="13" fill="url(#fcg)" />
-      <path d="M14 33V15h17" fill="none" stroke="#fff" strokeWidth="4.5" strokeLinecap="round" strokeLinejoin="round" />
-      <path d="M14 24h10" fill="none" stroke="#fff" strokeWidth="4.5" strokeLinecap="round" />
-      <circle cx="34" cy="29" r="5" fill="#ffd166" />
+      <path d="M14 33V15h17" fill="none" stroke="#06140c" strokeWidth="4.5" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M14 24h10" fill="none" stroke="#06140c" strokeWidth="4.5" strokeLinecap="round" />
+      <circle cx="34" cy="29" r="5" fill="#06140c" />
     </svg>
   );
 }
